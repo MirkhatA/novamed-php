@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.main {
+    width: 100%;
+    min-height: 60vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    color: #fff;
+    padding-top: 160px;
+
+    background-image: url(img/main-background.png);
+}
+
+
+
+.main .row {
+    padding: 0 30%;
+}
+
+.navbar-main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    background: #fff;
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+    margin: 20px 0 30px;
+}
+
+.burger-icon {
+    width: 20px;
+    color: #25336D;
+    cursor: pointer;
+    display: none;
+}
+
+/* navbar */
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+/* nav ul {
+    margin: 0;
+} */
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #25336D;
+    font-size: 13px;
+    font-weight: normal;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #009FE3;
+}
+
+/* Section : Main */
+
+.main-title {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.main-detail {
+    font-size: 13px;
+}
+
+.main-block {
+    margin-bottom: 60px;
+}
+
+.production-btn {
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(90deg, #2664FF 0%, #009FE3 100%);
+    padding: 10px 30px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.production-btn:hover {
+    color: #66d1ff;
+}
+
+.main-text {
+    width: 50%;
+}
+
+.facts-section {
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 700px) {
+    .main {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    nav ul {
+        width: 100%;
+        background: #009FE3;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+
+    nav ul li {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+        text-align: center;
+        color: #25336D;
+    }
+
+    .burger-icon {
+        display: block;
+    }
+
+    #menuList {
+        overflow: hidden;
+        transition: 0.7s;
+    }
+
+    .main .row {
+        padding: 0;
+    }
+}
+
+/* section facts */
+
+.facts-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.facts-icon {
+    width: 80px;
+}
+
+.facts-block p {
+    padding: 30px 20px 0;
+    color: #25336D;
+}
+
+.facts-underline {
+    width: 50%;
+    margin-left: 25%;
+    opacity: 1;
+}
+
+/* section brands */
+
+.brands img {
+    width: 200px;
+}
+
+/* email */
+
+.email {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 13px;
+}
+
+.email input {
+    border: 1px solid #25336D;
+    border-radius: 4px;
+    height: 40px;
+    padding: 5px;
+}
+
+
+#firstName,
+#lastName {
+    width: 45%;
+}
+
+#email,
+#message {
+    width: 91%;
+    margin-top: 15px;
+    padding: 5px;
+    resize: none;
+}
+
+#send {
+    background: #25336D;
+    color: #fff;
+    padding: 7px 25px;
+    border-radius: 4px;
+
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: 0;
+}
+
+#send:hover {
+    background: #19275f;
+}
+
+iframe {
+    width: 100%;
+}
+
+
+/* footer */
+
+footer {
+    background: #25336D;
+    color: #fff;
+
+    padding-top: 40px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+
+/*  about  */
+
+.about {
+    width: 100%;
+    min-height: 40vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    color: #fff;
+    padding-top: 160px;
+
+    background-image: url(img/about_back.png);
+}
+
+.about-title {
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.about-text {
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+
+.sertificate__section__cards {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+
+    transition: 0.3s;
+}
+
+.sertificate__section__cards div {
+    margin: auto;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+    width: 260px;
+    height: 90px;
+    margin: 20px;
+    font-size: 13px;
+    text-align: start;
+    padding: 30px 20px;
+
+    font-weight: bold;
+}
+
+.sertificate__section__cards div:hover {
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: right;
+    transition: 0.6s;
+    object-fit: cover;
+}
+
+.item1:hover {
+    background-image: url(img/serificates/anastesiya.jpg);
+}
+
+.item2:hover {
+    background-image: url(img/serificates/anastesiya.jpg);
+}
+
+.item3:hover {
+    background-image: url(img/serificates/gas-control.jpg);
+}
+
+.item4:hover {
+    background-image: url(img/serificates/monitors.jpg);
+}
+
+.item5:hover {
+    background-image: url(img/serificates/neo_ther.jpg);
+}
+
+.item6:hover {
+    background-image: url(img/serificates/master-class.jpg);
+}
+
+.item7:hover {
+    background-image: url(img/serificates/dom_therapi.jpg);
+}
+
+
+.doctor-img {
+    width: 60%;
+    padding-top: 55px;
+    margin-left: 100px;
+    padding-bottom:0px;
+}
+
+.map-title {
+    margin-top: 20px;
+}
+
+/*  about  */
+
+
+
+
+/* brands */
+
+.brand-title {
+    font-size: 70px;
+    font-weight: bold;
+    color: #25336D;
+
+}
+
+.brands-section {
+    padding-top: 200px;
+    padding-bottom: 220px;
+}
+
+.brand-icons {
+    margin-top: 100px;
+}
+
+.brand-icons img {
+    width: 210px;
+}
+
+/* brands */
+
+
+/* contacts */
+
+.contacts {
+    padding-top: 200px;
+    padding-bottom: 10px;
+}
+
+.about-email {
+    margin-bottom: 100px;
+    font-size: 13px;
+}
+
+.about-email input {
+    border: 1px solid #25336D;
+    border-radius: 4px;
+    height: 40px;
+    padding: 5px;
+}
+
+/*.about-email #firstName {*/
+/*    margin-right: 3px;*/
+/*}*/
