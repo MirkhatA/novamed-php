@@ -17,7 +17,7 @@ $mail->SMTPAuth = true;                               // Enable SMTP authenticat
 $mail->Username = 'ququmberr@mail.ru'; // Ваш логин от почты с которой будут отправляться письма
 $mail->Password = 'Mirkhat2001Mirkhat'; // Ваш пароль от почты с которой будут отправляться письма
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
-$mail->Port = 465; // TCP port to connect to / этот порт может отличаться у других провайдеров
+$mail->Port = 192; // TCP port to connect to / этот порт может отличаться у других провайдеров
 
 $mail->setFrom('ququmberr@mail.ru'); // от кого будет уходить письмо?
 $mail->addAddress('asen.mirkhat@bk.ru');     // Кому будет уходить письмо
