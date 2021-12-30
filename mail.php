@@ -30,12 +30,10 @@ $mail->addAddress('asen.mirkhat@bk.ru');     // Кому будет уходит
 $mail->isHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = 'Сообщение!';
-$mail->Body    = '' .$firstName . ' ' .$lastName . ' оставил сообщение, ' .$message. '<br>Почта этого пользователя: ' .$email;
+$mail->Body    = $firstName . $lastName . ' оставил сообщение, ' .$message. '<br>Почта этого пользователя: ' .$email;
 $mail->AltBody = '';
 
 if(!$mail->send()) {
     echo 'Error';
-} else {
-    header('location: brands.php');
 }
 ?>
