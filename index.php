@@ -72,23 +72,23 @@
     <div class="container-lg">
         <div class="row justify-content-center">
             <div class="col-md-5 text-center" class="email-form">
-                <form action="">
+                <form action="mail.php" method="POST">
                     <h3 style="margin-bottom: 30px;">Напишите нам</h3>
 
                         <div>
-                            <input type="text" id="firstName" placeholder="Имя">
-                            <input type="text" id="lastName" placeholder="Фамилия">
+                            <input type="text" id="firstName" name="firstName" placeholder="Имя">
+                            <input type="text" id="lastName" name="lastName" placeholder="Фамилия">
                         </div>
 
                         <div>
-                            <input type="text" id="email" placeholder="Email">
+                            <input type="text" id="email" name="email" placeholder="Email">
                         </div>
 
                         <div>
-                            <textarea name="" id="message" cols="30" rows="10" placeholder="Сообщение"></textarea>
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Сообщение"></textarea>
                         </div>
 
-                        <button id="send">Отправить</button>
+                        <button type="submit" id="send">Отправить</button>
                 </form>
             </div>
 
@@ -98,6 +98,7 @@
         </div>
     </div>
 </section>
+
 
 <!-- email form -->
 
