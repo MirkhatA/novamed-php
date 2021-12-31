@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Rubik', sans-serif;
+
 }
 
 
@@ -202,15 +203,16 @@ nav ul li a:hover {
     width: 45%;
 }
 
+#name,
 #email,
-#message {
+#body {
     width: 91%;
     margin-top: 15px;
     padding: 5px;
     resize: none;
 }
 
-#send {
+#emailSend button {
     background: #25336D;
     color: #fff;
     padding: 7px 25px;
@@ -221,7 +223,7 @@ nav ul li a:hover {
     border: 0;
 }
 
-#send:hover {
+#emailSend button:hover {
     background: #19275f;
 }
 
@@ -258,7 +260,7 @@ footer p {
 }
 
 .about-title {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
     margin-top: 20px;
 }
@@ -336,7 +338,7 @@ footer p {
     width: 60%;
     padding-top: 55px;
     margin-left: 100px;
-    padding-bottom:0px;
+    padding-bottom:0;
 }
 
 .map-title {
@@ -355,7 +357,7 @@ footer p {
 /* brands */
 
 .brand-title {
-    font-size: 70px;
+    font-size: 60px;
     font-weight: bold;
     color: #25336D;
 
@@ -372,6 +374,12 @@ footer p {
 
 .brand-icons img {
     width: 210px;
+}
+
+@media only screen and (max-width: 700px) {
+    .brand-title {
+        font-size: 40px;
+    }
 }
 
 /* brands */
@@ -396,6 +404,36 @@ footer p {
     padding: 5px;
 }
 
-/*.about-email #firstName {*/
-/*    margin-right: 3px;*/
-/*}*/
+.products {
+    padding-top: 100px ;
+
+    color: #25336D;
+}
+
+.product-image {
+    width: 100%;
+}
+
+.product-link {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*  brand detail  */
+
+.brand-image {
+    margin-top: 100px;
+}
+
+.text-detail p,
+.text-detail b{
+    text-align: justify;
+    font-size: 15px;
+
+    color: #25336D;
+}
+
+
+
+

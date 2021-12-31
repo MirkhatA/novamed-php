@@ -1,4 +1,4 @@
-<?php require "blocks/header.php"?>
+<?php require "blocks/header.php" ?>
 
 <!-- main -->
 
@@ -15,7 +15,7 @@
 <section class="about-text">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-6  text-center">
+            <div class="col-8  text-center">
                 <p>В настоящее время компания NOVOMEDKZ разделена на три основных подразделения: подразделение медицинского оборудования по обоим направлениям: продажи и техническая поддержка, а также подразделение по консультациям и планированию для проектов «под ключ».</p>
             </div>
         </div>

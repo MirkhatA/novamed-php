@@ -1,4 +1,4 @@
-<?php require "blocks/header.php"?>
+<?php require "blocks/header.php" ?>
 
 
 <section class="brands-section">
@@ -11,11 +11,11 @@
             <div class="col ">
                 <div class="row text-center justify-content-center">
                     <div class="brand-icons" style="margin-top: 40px">
-                        <a href="#"><img src="css/img/brands/biolight_logo.jpg" alt=""></a>
-                        <a href="#"><img src="css/img/brands/hamilton_logo.jpg" alt=""></a>
-                        <a href="#"><img src="css/img/brands/lowenstein_logo.jpg" alt=""></a>
-                        <a href="#"><img src="css/img/brands/medin_logo.jpg" alt=""></a>
-                        <a href="#"><img src="css/img/brands/rvent_logo.png" alt=""></a>
+                        <a href="biolight.php"><img src="css/img/brands/biolight_logo.jpg" alt=""></a>
+                        <a href="hamilton.php"><img src="css/img/brands/hamilton_logo.jpg" alt=""></a>
+                        <a href="lowenstein.php"><img src="css/img/brands/lowenstein_logo.jpg" alt=""></a>
+                        <a href="medin.php"><img src="css/img/brands/medin_logo.jpg" alt=""></a>
+                        <a href="rvent.php"><img src="css/img/brands/rvent_logo.png" alt=""></a>
                     </div>
                 </div>
             </div>

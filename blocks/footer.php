@@ -22,12 +22,49 @@
             <div class="col">
                 <p>
                     E-mail: kz@novomed.nl <br>
-                    Website: www.novomed.nl
+                    Website: www.novomed.nlf
                 </p>
             </div>
         </div>
     </div>
 </footer>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+    function sendEmail() {
+        var name = $("#name")
+        var email = $("#email")
+        var body = $("#body")
+
+        if (isNotEmpty(name) && isNotEmpty(email) && isNotEmpty(body)) {
+            $.ajax({
+                url: 'sendEmail.php',
+                method: 'POST',
+                dataType: 'json',
+                data: {
+                    name: name.val(),
+                    email: email.val(),
+                    body: body.val()
+                }, success: function (response) {
+                    $('#emailSend')[0].reset();
+                    $('.sent-notification').text("Сообщение успешно отправлено!.");
+                }
+            });
+        }
+    }
+
+    function isNotEmpty(caller) {
+        if (caller.val()=="") {
+            caller.css('border', '1px solid red');
+            return false;
+        }
+        else {
+            caller.css('border', '1px solid green');
+            return true;
+        }
+    }
+</script>
 
 <script>
     var menuList = document.getElementById("menuList");

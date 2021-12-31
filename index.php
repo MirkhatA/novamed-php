@@ -1,6 +1,4 @@
-
-
-<?php require "blocks/header.php"?>
+<?php require "blocks/header.php" ?>
 
 <!-- main -->
 
@@ -11,7 +9,7 @@
             <p class="main-detail">Уважаемые дамы и господа, дорогие друзья и коллеги!
                 Мы выражаем вам наше глубокое почтение, и приглашаем вас начать успешное сотрудничество с NOVOMEDKZ</p>
 
-            <a href="#" class="production-btn">Продукция</a>
+            <a href="products.php" class="production-btn">Продукция</a>
         </div>
     </div>
 </section>
@@ -72,12 +70,12 @@
     <div class="container-lg">
         <div class="row justify-content-center">
             <div class="col-md-5 text-center" class="email-form">
-                <form action="mail.php" method="POST">
+                <h4 class="sent-notification"></h4>
+                <form id="emailSend" method="POST">
                     <h3 style="margin-bottom: 30px;">Напишите нам</h3>
 
                         <div>
-                            <input type="text" id="firstName" name="firstName" placeholder="Имя">
-                            <input type="text" id="lastName" name="lastName" placeholder="Фамилия">
+                            <input type="text" id="name" name="name" placeholder="Имя">
                         </div>
 
                         <div>
@@ -85,10 +83,10 @@
                         </div>
 
                         <div>
-                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Сообщение"></textarea>
+                            <textarea name="body" id="body" cols="30" rows="10" placeholder="Сообщение"></textarea>
                         </div>
 
-                        <button type="submit" id="send">Отправить</button>
+                        <button type="button" onclick="sendEmail()">Отправить</button>
                 </form>
             </div>
 

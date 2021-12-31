@@ -1,4 +1,4 @@
-<?php require "blocks/header.php"?>
+<?php require "blocks/header.php" ?>
 
 <section class="contacts">
     <div class="container">
@@ -28,21 +28,22 @@
 
             <div class="col-md-9 col">
                 <div class="about-email">
-                    <form action="">
+                    <h4 class="sent-notification"></h4>
+
+                    <form id="emailSend" method="POST">
                         <div>
-                            <input type="text" id="firstName" placeholder="Имя">
-                            <input type="text" id="lastName" placeholder="Фамилия">
+                            <input type="text" id="name" name="name" placeholder="Имя">
                         </div>
 
                         <div>
-                            <input type="text" id="email" placeholder="Email">
+                            <input type="text" id="email" name="email" placeholder="Email">
                         </div>
 
                         <div>
-                            <textarea name="" id="message" cols="30" rows="10" placeholder="Сообщение"></textarea>
+                            <textarea name="body" id="body" cols="30" rows="10" placeholder="Сообщение"></textarea>
                         </div>
 
-                        <button id="send">Отправить</button>
+                        <button type="button" onclick="sendEmail()">Отправить</button>
                     </form>
                 </div>
             </div>
