@@ -3,7 +3,7 @@
 <section class="brand-detail">
     <div class="container">
         <div class="row">
-            <div class="text-center text-detail">
+            <div class="text-center text-detail mt-5">
                 <img src="css/img/brands/biolight_logo.jpg" alt="" style="width: 300px" class="brand-image">
 
                 <div class="row">

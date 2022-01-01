@@ -51,11 +51,11 @@
         <div class="row text-center">
             <p><b>NOVOMEDKZ</b> - компания которая успешно выступает дистрибьютором таких производителей, как</p>
             <div>
-                <img src="css/img/brands/biolight_logo.jpg" alt="">
-                <img src="css/img/brands/hamilton_logo.jpg" alt="">
-                <img src="css/img/brands/lowenstein_logo.jpg" alt="">
-                <img src="css/img/brands/medin_logo.jpg" alt="">
-                <img src="css/img/brands/rvent_logo.png" alt="">
+                <a href="biolight.php"><img src="css/img/brands/biolight_logo.jpg" alt=""></a>
+                <a href="hamilton.php"><img src="css/img/brands/hamilton_logo.jpg" alt=""></a>
+                <a href="lowenstein.php"><img src="css/img/brands/lowenstein_logo.jpg" alt=""></a>
+                <a href="medin.php"><img src="css/img/brands/medin_logo.jpg" alt=""></a>
+                <a href="rvent.php"><img src="css/img/brands/rvent_logo.png" alt=""></a>
             </div>
             <p>и другие.</p>
         </div>

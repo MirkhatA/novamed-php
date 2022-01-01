@@ -288,7 +288,7 @@ footer p {
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 
     width: 260px;
-    height: 90px;
+    height: 130px;
     margin: 20px;
     font-size: 13px;
     text-align: start;
@@ -307,10 +307,11 @@ footer p {
 
 .item1:hover {
     background-image: url(img/serificates/anastesiya.jpg);
+
 }
 
 .item2:hover {
-    background-image: url(img/serificates/anastesiya.jpg);
+    background-image: url(img/serificates/ventilation.jpg);
 }
 
 .item3:hover {
@@ -412,12 +413,17 @@ footer p {
 
 .product-image {
     width: 100%;
+    border-radius: 4px  ;
 }
 
 .product-link {
     color: #000;
     font-weight: bold;
     text-decoration: none;
+}
+
+.product-card p {
+    font-size: 14px;
 }
 
 /*  brand detail  */
@@ -427,12 +433,118 @@ footer p {
 }
 
 .text-detail p,
-.text-detail b{
+.text-detail b {
     text-align: justify;
-    font-size: 15px;
-
+    font-size: 13px;
     color: #25336D;
 }
+
+.product-link {
+    font-size: 13px;
+}
+
+.product-link:hover {
+    cursor: pointer;
+    color: #363636;
+}
+
+#one,
+#two,
+#three,
+#four,
+#mOne,
+#mTwo,
+#mThree,
+#mFour,
+#mFive,
+#mSix,
+#mSeven,
+#mEight,
+#mNine,
+#mTen,
+#mEleven,
+#mTwelve,
+#mThirteen,
+#mFourteen,
+#mFifteen,
+#mSixteen,
+#mSeventeen,
+#mEighteen,
+#scOne,
+#avOne,
+#avTwo,
+#avThree,
+#avFour,
+#avSix,
+#avSeven,
+#avEight,
+#stOne,
+#stTwo,
+#stThree,
+#stFour,
+#sdOne,
+#sdTwo,
+#analizOne,
+#rasxOne{
+    font-size: 13px;
+    display: none;
+    transition: 0.2s;
+}
+
+/* products */
+
+.product-nav {
+    left: -400px;
+    transition: 0.3s;
+}
+
+#product-nav a {
+    text-decoration: none;
+}
+
+#product-nav li {
+    list-style: none;
+    margin-top: 20px;
+
+}
+
+#product-nav {
+    position: fixed;
+    width: 300px;
+    background: #25336D;
+    color: #009FE3;
+    height: 100vh;
+    padding-top: 50px;
+}
+
+.product-burg {
+    width: 30px;
+    position: fixed;
+
+    margin-top: 40vh;
+}
+
+.product-burg:hover {
+    cursor: pointer;
+}
+
+.product-cards {
+    margin-top: 20px;
+}
+
+.close-icon:hover {
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .product-cards img {
+        width: 95%;
+    }
+}
+
+
 
 
 

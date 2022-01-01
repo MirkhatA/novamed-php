@@ -25,6 +25,10 @@
                     Website: www.novomed.nlf
                 </p>
             </div>
+
+            <div class="justify-content-center">
+                <p>Made by Mirkhat Asen</p>
+            </div>
         </div>
     </div>
 </footer>
@@ -77,6 +81,36 @@
         }
         else {
             menuList.style.maxHeight = "0px"
+        }
+    }
+
+
+
+
+    function openDetail(item1) {
+        var item = document.getElementById(item1);
+
+
+        if (item.style.display === "none") {
+            console.log(1)
+            item.style.display = "block"
+        }
+        else {
+            item.style.display = "none"
+        }
+    }
+
+
+    var item3 = document.getElementById("product-nav");
+
+    item3.style.left = "-400px"
+
+    function productMenu() {
+        if (item3.style.left === "-400px") {
+            item3.style.left = "0px";
+        }
+        else {
+            item3.style.left = "-400px"
         }
     }
 </script>

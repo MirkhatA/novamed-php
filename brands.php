@@ -16,6 +16,8 @@
                         <a href="lowenstein.php"><img src="css/img/brands/lowenstein_logo.jpg" alt=""></a>
                         <a href="medin.php"><img src="css/img/brands/medin_logo.jpg" alt=""></a>
                         <a href="rvent.php"><img src="css/img/brands/rvent_logo.png" alt=""></a>
+                        <a href="bilimetrix.php"><img src="css/img/brands/bilimetrix_logo.png" alt=""></a>
+                        <a href="seoil.php"><img src="css/img/brands/seol.png" alt=""></a>
                     </div>
                 </div>
             </div>
