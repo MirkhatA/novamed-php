@@ -8,11 +8,6 @@
             <p>NOVOMED KZ LLC</p>
 
             <div class="col">
-                <p>
-                    Alikhan Bokeikhan 27/1, office 1 <br>
-                    KZ-010000 Nur-Sultan <br>
-                    Republic of Kazakhstan <br>
-                </p>
 
                 <p>
                     Phone: +7 7172 97-83-98
@@ -33,6 +28,7 @@
     </div>
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
 <script type="text/javascript">
@@ -78,9 +74,11 @@
     function togglemenu() {
         if (menuList.style.maxHeight == "0px") {
             menuList.style.maxHeight = "330px"
+            menuList.style.overflow = "visible"
         }
         else {
             menuList.style.maxHeight = "0px"
+            menuList.style.overflow = "hidden"
         }
     }
 
@@ -103,7 +101,7 @@
 
     var item3 = document.getElementById("product-nav");
 
-    item3.style.left = "-400px"
+    item3.style.left = "-400px";
 
     function productMenu() {
         if (item3.style.left === "-400px") {

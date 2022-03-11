@@ -5,7 +5,7 @@
 
     <div class="product-nav" id="product-nav">
         <ul class="justify-content-center">
-            <li class="close-icon" onclick="productMenu()">back</li>
+            <li class="close-icon" onclick="productMenu()"><b>Назад</b></li>
             <li><a href="#first">Анестезиологическая рабочий станций</a></li>
             <li><a href="#second">Модульные мониторы пациента</a></li>
             <li><a href="#third">Откашливатели</a></li>

@@ -24,6 +24,7 @@
 
 
     <div class="sertificate__section__cards">
+        
         <div class="item1">
             01<br>
             Анестезия
@@ -105,9 +106,6 @@
     </section>
 
 
-    <section>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1535.1243866644327!2d71.42681228718834!3d51.08563712358501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424586a6ac32c4c5%3A0x49797c2b62d4e48f!2sZhiloy%20Kompleks%20%22Venskiy%20Kvartal%22!5e0!3m2!1sen!2skz!4v1639466919340!5m2!1sen!2skz" width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    </section>
 
     <!-- main -->
 
